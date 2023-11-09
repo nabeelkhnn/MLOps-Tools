@@ -28,7 +28,7 @@ Instructions are provided to initialize and navigate Airflow's UI to run the cus
 The EDA notebook delves into the "Billboard Top 100" data, employing statistical methods to explore the dynamics between track popularity and release dates, among other attributes.
 
 ## Personal Touch
-As the architect of this project, I, `Nabeel Khan`, have intertwined my expertise in data engineering with a deep interest in music analytics. Each code segment and analytical query is a testament to a diligent and meticulous approach, ensuring a project that is not only functional but also a reflection of a genuine passion for data and music.
+As the architect of this project, I, **Nabeel Khan**, have intertwined my expertise in data engineering with a deep interest in music analytics. Each code segment and analytical query is a testament to a diligent and meticulous approach, ensuring a project that is not only functional but also a reflection of a genuine passion for data and music.
 
 ## Contributions
 For those interested in contributing, guidelines are provided to encourage community involvement and enhancement of the project.
