@@ -3,6 +3,9 @@
 ## Project Overview
 This project is an educational exploration into Apache Airflow, focusing on its use in orchestrating an ETL pipeline. The ETL process extracts data from Spotify's API, transforms it, and loads it into a CSV file for analysis. Through this project, users can gain practical experience with Airflow's operational aspects, such as DAG configuration, task scheduling, and automation.
 
+## Problem Statement
+The digital era has ushered in vast amounts of data generated every minute, and the music industry is no exception. With millions of tracks available on Spotify, there's a need to systematically extract data and derive meaningful insights from it. **This project aims to solve the problem of managing and automating the data workflow required to process Spotify track data. The challenge is to efficiently extract data from the Spotify API, transform it into a structured format suitable for analysis, and load it for further exploration and visualization.**
+
 ## Files Description
 - `spotify_etl.py`: The core ETL script that interfaces with Spotify's API to extract track data, transforms it into a structured format, and loads the data into `spotify_tracks_data.csv`.
 - `spotify_tracks_data.csv`: The output CSV file containing structured Spotify track data ready for analysis.
