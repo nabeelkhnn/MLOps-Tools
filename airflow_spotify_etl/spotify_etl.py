@@ -3,15 +3,15 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
 def run_spotify_etl():
-    client_id = "177294fedbe24a64b2ebd2d019eba74a"  # Your Spotify API client ID
-    client_secret = "001b4786a58b433fa94fb86a06a69b27"  # Your Spotify API client secret
+    client_id = "id"  # Your Spotify API client ID
+    client_secret = "secret"  # Your Spotify API client secret
 
     # Spotify authentication
     client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
     # Fetch tracks from a playlist or user's saved tracks
-    results = sp.playlist_tracks(playlist_id='6UeSakyzhiEt4NB3UAd6NQ')  # Use the extracted playlist_id
+    results = sp.playlist_tracks(playlist_id='id')  # Use the extracted playlist_id
 
 
     tracks_list = []
